@@ -19,10 +19,9 @@
 	
 	<main>
 		<hr>
-		<br>
+	<br>
 	<p class='p2'>/다양한 색깔의 공을 피하고, 만나며 <br>
 				주어진 색깔로 변신시켜 보자!</p class='p2'>
-	<br>
 	<br>
 	<p class='p4'> 1. 공 색깔 바꾸기 </p class='p4'>
 	<img src="./gameimage/FIRST.jpg">
@@ -37,13 +36,13 @@
 	<p class='p4'>2. 별 따먹기 <p class='p4'>
 	<img src="./gameimage/s.jpg">
 	<p>우주선을 움직여 화면 우측 상단에 제시 된 색의 별을 먹으면 되는 게임이다.<br>
-	떨어지는 회색의 운석들을 피해 가장 많은 점수를 얻으면 된다.</p>
+	날아다니는 회색의 운석들을 피해 가장 많은 점수를 얻으면 된다.</p>
 
 <br><br>
 <br><br>	  
 	
 	<p class='p4'>3. 색깔 만들기 <p class='p4'>
-	<img src="./gameimage/th.jpg">
+	<img class='img2' src="./gameimage/th.jpg">
 	<p>하트를 움직여 하늘에서 떨어지는 비를 피하고 하트만를 맞아야 하는 게임이다.<br>
 	같은 색의 하트를 맞으면 보너스 점수를 얻는다.
 	</p>
@@ -72,6 +71,9 @@
 	img{width: 600px; 
 		padding-top: 0em;
 		margin-bottom: 0em;}
+	img.img2{width:400px;
+			padding-top: 0em;
+		margin-bottom: 0em;}
 	h1{color: black;
 		margin-top: :5em; 
 		margin-bottom: 1em; 
@@ -82,14 +84,6 @@
 	p.p4{font-size: 1.5em;
 		font-weight: 100;
 		margin-left: 0em;}
-	p.p3{font-size: 0.9em; 
-		color: black;
-		padding-bottom: 5em;
-		line-height : 30px;}
-	p.p1{font-size: 0.7em; 
-		color: gray;
-		line-height: 20px;
-		margin: 0;}
 	p.p2{font-size: 0.9em; 
 		color: black; 
 		font-weight: 700;
@@ -99,45 +93,7 @@
 		letter-spacing: 0.8px;
 		word-break: keep-all;
 		line-height: 30px;}
-	p.p6{font-size: 0.9em; 
-		color: black; 
-		font-weight: 700;
-		line-height: 0.7; 
-		padding-bottom: 20px;}
-
 	
-	mark{background: blue}
-	
-	
-	
-
-/* Mobile */
-@media all
-  and (max-width: 600px){
-  	body{width:100%;}
-  	h1{margin:1em;}
-  	p{margin: 1em;
-  	  font-size:0.9em;}
-  	p.p1{margin:1em;
-  		line-height: 20px;}
-
-  	p.p2{font-size: 0.9em; 
-		color: black; 
-		font-weight: 700;}
-	p.p3{font-size: 0.9em; 
-		color: black;
-		padding-bottom: 1em;
-		line-height : 30px;}
-	p.p4{font-size: 1.5em;
-		margin-top: 0.5em;
-		font-weight: 100;
-		margin-left:0.5em;}
-
-  	hr {margin: 1em;}
-  
-  	header{margin-top: 300px}
-  	img{width: 750px;
-  		padding-bottom: 1em;}
 }
 
 </style></body></html>
